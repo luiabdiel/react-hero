@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom';
+
 export const DashBoard = () => {
   return (
     <div>
-      DashBoard
+      <p>DashBoard</p>
+      <Link to="/pagina-login">Login</Link>
     </div>
-  )
+  );
 }
